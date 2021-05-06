@@ -13,7 +13,7 @@ object Client extends zio.App {
 
   val channelBuilder: ManagedChannelBuilder[_] =
     ManagedChannelBuilder
-            .forAddress("localhost",9090)
+            .forAddress("localhost",8980)
             .usePlaintext()
             .asInstanceOf[ManagedChannelBuilder[_]]
 
